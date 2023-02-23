@@ -2,6 +2,7 @@
 import os, torch
 from transformers import (
     AutoTokenizer, AutoModelForCausalLM)
+import streamlit as st
 
 # ------------------ ENVIORNMENT ------------------- #
 os.environ["HF_ENDPOINT"] = "https://huggingface.co"
